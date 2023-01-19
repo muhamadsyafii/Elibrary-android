@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_category_book"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textColor="@color/black"
+            android:fontFamily="@font/glegoo_bold"
+            android:drawablePadding="8dp"
+            android:textSize="16sp"
+            android:text="@string/txt_category_book"
+            app:drawableEndCompat="@drawable/ic_arrow_back_right" />
+
+
+        <TextView
+            android:id="@+id/tv_best_seller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:fontFamily="@font/glegoo_bold"
+            android:drawablePadding="8dp"
+            android:textSize="16sp"
+            android:text="@string/txt_best_seller" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_novel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="center"
+            tools:listitem="@layout/item_novel"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            app:spanCount="2"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

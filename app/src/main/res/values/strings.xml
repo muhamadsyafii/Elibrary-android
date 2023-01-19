@@ -1,3 +1,51 @@
 <resources>
-    <string name="app_name">Elibrary</string>
+    <string name="app_name">E-Library</string>
+    <string name="txt_desc_register">Belum Punya Akun? <font fgcolor="#4BC6E1">Daftar Sekarang</font></string>
+    <string name="txt_username">Username</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_login">Login</string>
+
+    <!--Register-->
+    <string name="txt_full_name">Nama Lengkap</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_re_password">Re- Password</string>
+    <string name="txt_registrasi">REGISTRASI</string>
+    <string name="txt_toolbar_register">DAFTAR AKUN BARU</string>
+    <string name="txt_register_success">Proses registrasi berhasil</string>
+    <string name="txt_ok">OK</string>
+
+    <!--Home-->
+    <string name="txt_nav_home">Beranda</string>
+    <string name="txt_nav_category">Kategori</string>
+    <string name="txt_nav_profile">Profil</string>
+    <string name="txt_best_seller">Best Seller</string>
+    <string name="txt_category_book">Kategori Buku</string>
+
+    <!--Profile-->
+    <string name="txt_name_person">ANGGRAINI PUSPITA DEWI</string>
+    <string name="txt_menu">Menu</string>
+    <string name="txt_lengkapi_akun">Lengkapi Akun</string>
+    <string name="txt_dafar_pinjam">Daftar Pinjaman</string>
+    <string name="txt_daftar_baca_online">Daftar Baca Online</string>
+    <string name="txt_setting">Pengaturan</string>
+    <string name="txt_keluar">Keluar</string>
+
+
+    <!--Review-->
+    <string name="txt_review">ULASAN</string>
+    <string name="hint_message">Tulis Ulasan.......</string>
+    <string name="txt_kirim">Kirim</string>
+
+
+    <!--Detail-->
+    <string name="txt_detail">DETAIL BUKU</string>
+    <string name="txt_penulis">Penulis    : Tere Liye</string>
+    <string name="txt_penerbit">Penerbit  : PT. Gramedia Pustaka Utama</string>
+    <string name="txt_tahun">Tahun Terbit : 2016</string>
+    <string name="txt_kategori">Kategori Buku : Novel</string>
+    <string name="txt_sinopsis">SINOPSIS</string>
+    <string name="txt_sinopsis_desc">Novel ini menceritakan tentang Esok dan Lail sebagai salah satu tokoh utama, keduanya dipertemukan setelah gunung meletus pada tahun 2042. Efek letusan gunung yang dahsyat membuat seisi bumi menyisihkan manusia dan tersisa sekitar 10% manusia. Esok yang memiliki nama panjang Soke Bahtera merupakan sosok anak muda yang pintar dan jenius, saat 16 tahun ia berpindah ke ibu kota untuk meneruskan sekolahnya dan ia berhasil membuat mobil terbang untuk pertama kalinya. Sedangkan Lail sosok wanita sederhana yang tinggal di panti social sebagai relawan kemanusiaan dan mendapatkan pendidikan di sekolah perawat. Ia ternyata memiliki perasaan untuk Esok namun tidak dapat mengungkapkannya. Cerita ini menggunakan latar di tahun 2041-20150 yang berarti menceritakan kecanggihan teknologi di masa depan, dan peran manusia akan tergantikan dengan teknologi dan ilmu pengetahuan. Manusia juga semakin dimanja dengan berbagai teknologi yang sudah ada, seperti tidak perlu repot memasak, menjahit, dan beberapa aktivitas lainnya. Konflik dari cerita ini saat Lail akan memodifikasi ingatannya di pusat terapi saraf dan ia ingin melupakan tentang hujan, kemudian Lail menceritakan tentang kehidupannya dari terjadinya bencana alam sampai tiba di pusat terapi syaraf.</string>
+    <string name="txt_pinjam">Pinjam</string>
+    <string name="txt_ulasan">Ulasan</string>
+
 </resources>

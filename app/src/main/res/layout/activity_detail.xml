@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.detail.DetailActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_toolbar_order_history"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_back_left"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="8dp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/glegoo_bold"
+            android:text="@string/txt_detail"
+            android:textColor="@color/black"
+            android:textAllCaps="true"
+            android:layout_marginStart="8dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_back"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_detail"
+                android:adjustViewBounds="true"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_pinjam"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/glegoo_bold"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:textSize="20sp"
+                    android:layout_marginHorizontal="4dp"
+                    android:textColor="@color/black"
+                    android:text="@string/txt_pinjam"
+                    android:textStyle="bold"
+                    app:cornerRadius="16dp" />
+
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_ulasan"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/glegoo_bold"
+                    android:insetTop="0dp"
+                    android:layout_marginHorizontal="4dp"
+                    android:insetBottom="0dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:text="@string/txt_ulasan"
+                    android:textStyle="bold"
+                    app:cornerRadius="16dp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/glegoo_bold"
+                android:text="@string/txt_penulis"
+                android:textColor="@color/black"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="12dp"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/glegoo_bold"
+                android:text="@string/txt_penerbit"
+                android:textColor="@color/black"
+                android:layout_marginStart="8dp"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/glegoo_bold"
+                android:text="@string/txt_tahun"
+                android:textColor="@color/black"
+                android:layout_marginStart="8dp"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/glegoo_bold"
+                android:text="@string/txt_kategori"
+                android:textColor="@color/black"
+                android:layout_marginStart="8dp"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/glegoo_bold"
+                android:text="@string/txt_sinopsis"
+                android:textColor="@color/black"
+                android:textAllCaps="true"
+                android:layout_marginVertical="12dp"
+                android:layout_marginStart="8dp"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/glegoo_bold"
+                android:text="@string/txt_sinopsis_desc"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="8dp"
+                android:justificationMode="inter_word"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
